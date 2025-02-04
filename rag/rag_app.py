@@ -18,7 +18,7 @@ class RAGApplication:
 
         # Initialize LLM
         if openai_api_key is None:
-            openai_api_key = "YOUR_OPENAI_API_KEY"
+            openai_api_key = ""
             if openai_api_key is None:
                 raise ValueError(
                     "OpenAI API key must be provided or set as OPENAI_API_KEY environment variable"
